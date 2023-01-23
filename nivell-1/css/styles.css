@@ -38,16 +38,15 @@ nav {
 /*MAIN SECTION*/
 main {
     margin-top: 2rem;
-    border: solid 20px black;
     display: flex;
 
 /*ARTICLE SECTION*/
 }
 
-article {
+.article {
     display: flex;
     background-color: rgb(78, 78, 106);
-    border-right: 10px black solid;
+    
 }
 
 .box.box-article {
@@ -57,22 +56,27 @@ article {
 
 .box.box-article.last-article {
     width: 100%;
+    background-color:  rgb(112, 163, 196);
 }
 
 .article-section {
     width: 75%;
+    border-left: 20px solid black;
+    border-right:10px solid black; 
+    border-bottom:20px solid black;
+    border-top:20px solid black;
 }
 
 
 /*ASIDE SECTION*/
 
 .aside-section {
-    width: 25%
-}
-
-.aside-section {
     background-color: rgb(247, 63, 82);
     border-left: 10px solid black;
+    border-right:20px solid black; 
+    border-bottom:20px solid black;
+    border-top:20px solid black;
+    width: 25%
 }
 
 .box.box-aside {
@@ -90,3 +94,34 @@ footer {
     background-color: rgb(230, 175, 46);
     margin: 0px;
 }
+
+/*MEDIA QUERY TABLET*/
+
+@media  (max-width: 600px){
+    main{
+        display: block;
+            }
+
+    .article-section{
+        width: auto;
+    }
+
+    .article-section{
+    border-width: 20px 20px 10px 20px;
+    border-style: solid;
+    border-color:rgb(254, 255, 3) ;
+    width: auto;
+    }
+
+    .aside-section{
+    border-width: 10px 20px 20px 20px;
+        border-style: solid;
+        border-color:rgb(254, 255, 3) ;
+        width: auto;
+    }
+
+    nav{
+        background-color:rgb(240, 123, 63);
+    }
+   
+        }
