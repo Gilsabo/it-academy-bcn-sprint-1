@@ -1,3 +1,8 @@
+body{
+    max-width:1200px;
+    margin:0 auto;
+}
+
 .box {
     height: 50px;
     margin: 25px;
@@ -36,17 +41,17 @@ nav {
 }
 
 /*MAIN SECTION*/
+
 main {
     margin-top: 2rem;
     display: flex;
+}
 
 /*ARTICLE SECTION*/
-}
 
 .article {
     display: flex;
     background-color: rgb(78, 78, 106);
-    
 }
 
 .box.box-article {
@@ -56,15 +61,15 @@ main {
 
 .box.box-article.last-article {
     width: 100%;
-    background-color:  rgb(112, 163, 196);
+    background-color: rgb(112, 163, 196);
 }
 
 .article-section {
     width: 75%;
     border-left: 20px solid black;
-    border-right:10px solid black; 
-    border-bottom:20px solid black;
-    border-top:20px solid black;
+    border-right: 10px solid black;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
 }
 
 
@@ -73,9 +78,9 @@ main {
 .aside-section {
     background-color: rgb(247, 63, 82);
     border-left: 10px solid black;
-    border-right:20px solid black; 
-    border-bottom:20px solid black;
-    border-top:20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
     width: 25%
 }
 
@@ -97,31 +102,101 @@ footer {
 
 /*MEDIA QUERY TABLET*/
 
-@media  (max-width: 600px){
-    main{
+@media (max-width: 600px) {
+
+    /*MAIN*/
+    main {
         display: block;
-            }
+    }
 
-    .article-section{
+    /*NAV*/
+
+    nav {
+        background-color: rgb(240, 123, 63);
+    }
+
+
+    /*ARTICLE SECTION*/
+    .article-section {
         width: auto;
     }
 
-    .article-section{
-    border-width: 20px 20px 10px 20px;
-    border-style: solid;
-    border-color:rgb(254, 255, 3) ;
-    width: auto;
-    }
-
-    .aside-section{
-    border-width: 10px 20px 20px 20px;
+    .article-section {
+        border-width: 20px 20px 10px 20px;
         border-style: solid;
-        border-color:rgb(254, 255, 3) ;
+        border-color: rgb(254, 255, 3);
+    }
+
+    /*ASIDE SECTION*/
+    .aside-section {
+        border-width: 10px 20px 20px 20px;
+        border-style: solid;
+        border-color: rgb(254, 255, 3);
         width: auto;
     }
 
-    nav{
-        background-color:rgb(240, 123, 63);
+}
+
+/*MEDIA QUERIES CELLPHONE*/
+
+@media (max-width:480px) {
+
+    header {
+        display: block;
+        border-width: 30px 30px 15px 30px;
+        border-style: solid;
+        border-color: black;
     }
-   
-        }
+
+    nav {
+        border-width: 15px 30px 30px 30px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    .box.box-header {
+        width: auto;
+    }
+
+    .article {
+        display: block;
+        background-color: rgb(9, 80, 111);
+    }
+
+    .box.box-article {
+        width: auto;
+        background-color: rgb(98, 149, 156);
+    }
+
+    .box.box-article.last-article {
+        width: auto;
+        background-color: rgb(163, 221, 203);
+    }
+
+    .article-section {
+        border-width: 30px 30px 15px 30px;
+        border-style: solid;
+        border-color: rgb(254, 226, 40);
+        background-color: rgb(9, 80, 111);
+    }
+
+    .aside-section {
+
+        border-width: 15px 30px 30px 30px;
+        border-style: solid;
+        border-color: rgb(254, 226, 40);
+        background-color: rgb(253, 123, 84);
+    }
+
+    .box.box-aside {
+        background-color: rgb(253, 179, 107);
+    }
+
+    footer {
+        border-width: 30px;
+    }
+
+    .box.box-footer {
+        background-color: rgb(253, 199, 100);
+    }
+}
