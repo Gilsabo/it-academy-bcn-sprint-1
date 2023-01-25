@@ -16,9 +16,8 @@ body{
     background-position-x: 50%;
     background-position-y: 50%;
     height: auto;
-    
-
 }
+
 
 nav {
     display: flex;
@@ -54,6 +53,17 @@ li:only-child{
     margin: end;
     gap:1rem;
     width: auto;
+}
+
+
+li:hover{
+    color: brown;
+    font-size: large;
+}
+
+.fa-facebook:hover, .fa-square-twitter:hover{
+    color: brown;
+    font-size: large;
 }
 
 /*HEADER SECTION*/
