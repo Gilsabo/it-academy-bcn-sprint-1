@@ -11,10 +11,13 @@ body{
 /*NAV SECTION*/
 
 .container-navheader{
-background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/header.jpg");
+    background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/header.jpg");
     background-repeat: no-repeat;
-    background-size: cover;  
-    background-position-y: -5%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: auto;
+    
+
 }
 
 nav {
@@ -44,6 +47,7 @@ li{
     align-items: center;
     gap:0.5rem;
     width: auto;
+    color: grey;
 }
 
 li:only-child{
@@ -55,9 +59,6 @@ li:only-child{
 /*HEADER SECTION*/
 
 header {
-    
-    border-width: 5px 5px 5px 5px;
-    border-style: solid;
     position: relative;
     height: 16.5rem;
 }
