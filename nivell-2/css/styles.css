@@ -20,7 +20,6 @@ body {
 
 nav {
     display: flex;
-
 }
 
 .box.box-nav {
@@ -37,7 +36,6 @@ ul {
     justify-content: space-around;
     padding-left: 0px;
     width: auto;
-
 }
 
 li {
@@ -51,7 +49,6 @@ li {
 .last-parent-child {
     display: flex;
     align-items: center;
-
 }
 
 
@@ -84,7 +81,6 @@ header {
 
 .box.box-header {
     height: auto;
-
 }
 
 h1 {
@@ -98,7 +94,6 @@ h1 {
     right: 4.0625rem;
     padding-top: 2.4rem;
     padding-bottom: 5rem;
-
 }
 
 /*MAIN SECTION*/
@@ -119,13 +114,13 @@ main {
     background-color: rgb(245, 241, 241);
     width: 50%;
     height: auto;
-    padding:0.6250rem;
-    margin:0.6250rem;
+    padding: 0.6250rem;
+    margin: 0.6250rem;
 }
 
-span{
+span {
     margin-left: 10px;
- }
+}
 
 .box.box-article.last-article {
     width: 100%;
@@ -136,15 +131,16 @@ span{
 .article-section {
     width: 75%;
 }
-.image-sakura{
-background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/sakura.jpg");
+
+.image-sakura {
+    background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/sakura.jpg");
     height: 13rem;
     width: auto;
     background-size: cover;
     position: relative;
 }
 
-.image-comida{
+.image-comida {
     background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/comida.jpg");
     height: 13rem;
     width: auto;
@@ -152,48 +148,44 @@ background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/sakura.jpg");
     position: relative;
 }
 
-.image-fuji{
+.image-fuji {
     background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/fuji.jpg");
     height: 13rem;
     width: auto;
     background-size: cover;
     position: relative;
-
 }
 
-.image-noche{
+.image-noche {
     background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/noche.jpg");
     height: 13rem;
     width: auto;
     background-size: cover;
     position: relative;
-
 }
 
-h3{
+h3 {
     background-color: rgb(240, 128, 128);
     color: white;
     font-size: 2rem;
     padding-top: 0.8rem;
     padding-left: 0.2rem;
     margin-top: 0.3125rem;
-    
 }
 
-p{
+p {
     column-count: 2;
-    margin:10px;
- }
+    margin: 10px;
+}
 
-.data{
-position: absolute;
+.data {
+    position: absolute;
     bottom: 0;
     left: 10px;
     color: rgb(240, 230, 140);
     font-size: 1.1rem;
     font-weight: bold;
 }
-
 
 /*ASIDE SECTION*/
 
@@ -203,22 +195,18 @@ position: absolute;
     width: 25%
 }
 
-.aside-header{
+.aside-header {
     color: black;
     text-align: center;
     background-color: rgb(216, 215, 215);
-
 }
 
-.aside-text{
+.aside-text {
     text-align: center;
     column-count: 1;
-
 }
 
-
 /*FOOTER*/
-
 
 .box.box-footer {
     display: flex;
@@ -227,9 +215,7 @@ position: absolute;
     border-left: 10px solid rgb(216, 215, 215);
     border-right: 10px solid rgb(216, 215, 215);
     width: auto;
-    
     margin: 10px 0px 0px 0px;
-    
     background-color: rgb(245, 241, 241);
 }
 
@@ -251,7 +237,6 @@ position: absolute;
         gap: 0rem;
     }
 
-
     .box.box-nav:first-child {
         margin-left: 10px;
     }
@@ -266,25 +251,30 @@ position: absolute;
         margin-right: 25px;
     }
 
-
-
     /*ARTICLE SECTION*/
     .article-section {
         width: auto;
     }
 
-
-
     /*ASIDE SECTION*/
     .aside-section {
-        background-color:rgb(216, 215, 215);
+        background-color: rgb(216, 215, 215);
         height: auto;
         margin-left: 0px;
         width: auto;
     }
 
-    .box.box-aside{
-        padding-bottom: 1.25rem;
+    .box.box-aside:first-child {
+        border-bottom: 0px;
+
+    }
+
+    .box.box.box-aside {
+        padding-bottom: 0px;
+    }
+
+    .box.box-aside:last-child {
+        padding-bottom: 3.75rem;
     }
 }
 
@@ -312,13 +302,11 @@ position: absolute;
 
     .box.box-nav {
         width: auto;
-
     }
 
     ul:only-child {
         margin: auto;
         margin-top: 0px;
-
     }
 
     /*ARTICLE SECTION*/
@@ -339,19 +327,21 @@ position: absolute;
     }
 
     /*ASIDE SECTION*/
-  .aside-header,
-  .aside-section,
-  .box.box-aside  {
-    background-color: rgb(216, 215, 215);
-  }
-
-    /*FOOTER*/
-
-    footer {
-        border-width: 30px;
+    .aside-header,
+    .aside-section,
+    .box.box-aside {
+        background-color: rgb(216, 215, 215);
     }
 
-    .box.box-footer {
-        background-color: rgb(253, 199, 100);
+    .box.box-aside:first-child {
+        border-bottom: 0px;
+    }
+
+    .box.box.box-aside {
+        padding-bottom: 0px;
+    }
+
+    .box.box-aside:last-child {
+        padding-bottom: 3.75rem;
     }
 }
