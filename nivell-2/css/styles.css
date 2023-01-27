@@ -112,25 +112,86 @@ main {
 
 .article {
     display: flex;
-    background-color: rgb(78, 78, 106);
+    background-color: rgb(216, 215, 215);
 }
 
 .box.box-article {
-    background-color: rgb(31, 108, 176);
+    background-color: rgb(245, 241, 241);
     width: 50%;
+    height: auto;
+    padding:0.6250rem;
+    margin:0.6250rem;
 }
+
+span{
+    margin-left: 10px;
+ }
 
 .box.box-article.last-article {
     width: 100%;
-    background-color: rgb(112, 163, 196);
+    background-color: rgb(216, 215, 215);
+    text-align: center;
 }
 
 .article-section {
     width: 75%;
-    border-left: 20px solid black;
-    border-right: 10px solid black;
-    border-bottom: 20px solid black;
-    border-top: 20px solid black;
+}
+.image-sakura{
+background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/sakura.jpg");
+    height: 13rem;
+    width: auto;
+    background-size: cover;
+    position: relative;
+}
+
+.image-comida{
+    background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/comida.jpg");
+    height: 13rem;
+    width: auto;
+    background-size: cover;
+    position: relative;
+}
+
+.image-fuji{
+    background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/fuji.jpg");
+    height: 13rem;
+    width: auto;
+    background-size: cover;
+    position: relative;
+
+}
+
+.image-noche{
+    background: url("/repos/it-academy-bcn/sprint-1/nivell-2/images/noche.jpg");
+    height: 13rem;
+    width: auto;
+    background-size: cover;
+    position: relative;
+
+}
+
+h3{
+    background-color: rgb(240, 128, 128);
+    color: white;
+    font-size: 2rem;
+    padding-top: 0.8rem;
+    padding-left: 0.2rem;
+    margin-top: 0.3125rem;
+    
+}
+
+p{
+    column-count: 2;
+    margin:10px;
+ }
+
+.data{
+position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: rgb(240, 230, 140);
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 
