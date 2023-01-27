@@ -219,14 +219,18 @@ position: absolute;
 
 /*FOOTER*/
 
-footer {
-    border: solid black 20px;
-    margin-top: 2rem;
-}
 
 .box.box-footer {
-    background-color: rgb(230, 175, 46);
-    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 10px solid rgb(216, 215, 215);
+    border-right: 10px solid rgb(216, 215, 215);
+    width: auto;
+    
+    margin: 10px 0px 0px 0px;
+    
+    background-color: rgb(245, 241, 241);
 }
 
 /*MEDIA QUERY TABLET*/
@@ -321,37 +325,27 @@ footer {
 
     .article {
         display: block;
-        background-color: rgb(9, 80, 111);
+        background-color: rgb(216, 215, 215);
     }
 
     .box.box-article {
         width: auto;
-        background-color: rgb(98, 149, 156);
+        background-color: rgb(245, 241, 241);
     }
 
     .box.box-article.last-article {
         width: auto;
-        background-color: rgb(163, 221, 203);
+        background-color: rgb(216, 215, 215);
     }
 
-    .article-section {
-        border-width: 30px 30px 15px 30px;
-        border-style: solid;
-        border-color: rgb(254, 226, 40);
-        background-color: rgb(9, 80, 111);
-    }
+    /*ASIDE SECTION*/
+  .aside-header,
+  .aside-section,
+  .box.box-aside  {
+    background-color: rgb(216, 215, 215);
+  }
 
-    .aside-section {
-
-        border-width: 15px 30px 30px 30px;
-        border-style: solid;
-        border-color: rgb(254, 226, 40);
-        background-color: rgb(253, 123, 84);
-    }
-
-    .box.box-aside {
-        background-color: rgb(253, 179, 107);
-    }
+    /*FOOTER*/
 
     footer {
         border-width: 30px;
