@@ -17,27 +17,35 @@ body {
     background-position-x: 50%;
     background-position-y: 50%;
     height: auto;
+    display: grid;
+    grid-template-rows:1fr 2fr;
 }
 
 nav {
-    display: flex;
+    
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-row: 1/2;
 }
 
 .box.box-nav {
     margin-top: 3.5rem;
     width: 10%;
+    
 }
 
 .box-nav:nth-child(2) {
     width: 80%;
+    grid-column: 2/3;
+    justify-content: center;
+    width: auto;
 }
+
 
 ul {
     display: flex;
-    justify-content: space-around;
-    padding-left: 0px;
-    width: auto;
     animation: moveLeft 1s ease-in ;
+    justify-content: space-around;
 }
 
 li {
@@ -46,11 +54,12 @@ li {
     gap: 0.5rem;
     color: grey;
     font-size: calc(13px + 0.350625vw);
+    height: 25px;
 }
 
 .last-parent-child {
-    display: flex;
     align-items: center;
+    grid-column: 3/4;
 }
 
 li:hover {
@@ -79,6 +88,7 @@ header {
     position: relative;
     height: 16.5rem;
     animation: moveLeft 1s ease-in ;
+    grid-row: 2/3;
 }
 
 .box.box-header {
@@ -197,7 +207,6 @@ p {
     margin-left: 0.6250rem;
     width: 25%;
     animation: moveRight 1s ease-in ;
-    
 }
 
 .aside-header {
@@ -289,8 +298,15 @@ p {
 
     /*NAV AND HEADER SECTION*/
 
+    .container-navheader{
+        grid-template-rows:1fr 1fr;
+    }
     nav {
         display: block;
+    }
+
+    header{
+        height: auto;
     }
 
     .box.box-nav:first-child {
