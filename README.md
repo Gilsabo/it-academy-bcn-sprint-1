@@ -2,7 +2,7 @@
 IT Academy Barcelona Landing Page
 
 ## Description
-This project is a landing page for the IT Academy Barcelona. The landing page is built with HTML, CSS, and Javascript. There are three subrepos for the project, each with a different layout strategy. If you wish to see the final result, you can [click here]( https://gilsabo.github.io/it-academy-bcn-sprint-1/)
+This project is a landing page for the IT Academy Barcelona. The landing page is built with HTML, CSS, and Javascript. There are three subrepos for the project, each with a different layout strategy
 ## Subrepos
 ### Subrepo 1
 - Contains a draft of the landing page built with different colors and responsive design
