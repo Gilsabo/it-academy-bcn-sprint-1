@@ -1,5 +1,5 @@
 # Project Title
-IT Academy Barcelona Landing Page
+IT Academy Barcelona Landing Page sprint-1
 
 ## Description
 This project is a landing page for the IT Academy Barcelona. The landing page is built with HTML, CSS, and Javascript. There are three subrepos for the project, each with a different layout strategy
